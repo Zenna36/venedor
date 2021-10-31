@@ -1,0 +1,152 @@
+/* /* Global start */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    border-top: 5px solid rgb(57, 181, 197);
+}
+
+body {
+    width: 1260px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.icon { */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+
+button {
+    background-color: rgb(138, 148, 138);
+    color: white;
+} */
+
+/* .col-md-2 .button {
+    background-color: rgb(212, 78, 78);
+} */
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ==========================================
+
+/* Global end */
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Header start */
+.header  {
+    border: 2px solid red;
+}
+
+.header .nav, .welcome{
+    background-color: rgb(238, 231, 231);
+    padding: 0 auto;
+    width: 100%;
+}
+
+.row {
+    width: 1260px;
+}
+
+.header ul li {
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.header p {
+    float: right;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.header button {
+    float: right;
+}
+
+.header h1 {
+    padding-left: 50px;
+    margin: 0;
+}
+
+span {
+    background-color:rgb(57, 181, 197);
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+#site-search {
+    display: block;
+    float: left;
+}
+
+.search-button {
+    display: block;
+    float: left;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.carousel {
+    background-color:#F1F6F7;
+    padding: 0 auto;
+}
+
+.main {
+    border: 2px solid green;
+}
+/* Header end */
+/* -------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* Footer start */
+.footer {
+    border: 2px solid blue;
+}
+
+.inner-footer {
+    background-color:#4e4f50;
+    margin: 0 auto;
+}
+.row .signup {
+    background-color: rgb(228, 228, 228);
+}
+
+.row .email {
+    background-color: rgb(228, 228, 228);
+}
+
+.col-md-3 {
+    float: left;
+}
+/* Footer end */
+/* ---------------------------------------------------------------------------------------- */
+
+/* end of css */

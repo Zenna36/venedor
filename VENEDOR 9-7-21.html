@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/venedor bootstrap 9-7-21.css">
+    <title>Venedor</title>
+</head>
+<body>
+    <!-- open header -->
+    <header class="header">
+        <div class="container-fluid header-bar">
+            <div class="topHeader">
+                <div class="row skinny-top">
+                    <div class="col-md-6 text-capitalize nav">
+                        <ul>
+                            <li>My Wishlist</li>
+                            <li>My account</li>
+                            <li>Shopping Cart</li>
+                            <li>Checkout</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-right welcome">
+                        <p> Welcome to Venedor! <a href="#">login<a/> or <a href="#">create an account</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid logo">
+            <div class="row logoRow logo">
+                <div class="col-md-6 logo"> 
+                    <h1><span class="spanA">V</span><span class="spanB">e</span>nedor<span class="spanC">.</span></h1>
+                </div>
+                <div class="col-md-6 shopping text-right">
+                    <button class="button btn">US dollars</button>
+                    <button class="button btn"><img src="Media/england-flag.png">English</button>
+                    <button class="button btn">0 Item(s) - $0.00</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row navAndSearch">
+                <div class="col-md-6 main-nav text-uppercase">
+                    <nav>
+                        <ul>
+                            <li>home</li>
+                            <li>shop</li>
+                            <li>pages</li>
+                            <li>portfolio</li>
+                            <li>elements</li>
+                            <li>contact us</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-6 search text-right">
+                    <input type="search" id="site-search" name="search " placeholder="Search Here">
+                    <div class="search-button">
+                        <button class="button btn search-button">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- close header -->
+
+    <!-- open main -->
+    <!-- Carousel start -->
+    <main class="main" id="main">
+        <section class="container-fluid carousel">
+            <div class="row carouselRow">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol> -->
+                    <div class="carousel-inner carousel">
+                        <div class="carousel-item active">
+                        <img src="media/venedor 1.png" class="d-block w-75" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>First slide label</h5> -->
+                            <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="media/venedor 2.png" class="d-block w-75" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>Second slide label</h5> -->
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="media/venedor 3.png" class="d-block w-75" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>Third slide label</h5> -->
+                            <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+                        </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    <!-- end carousel -->
+        <div class="mainBody">
+            <div class="container-fluid items highlight-images">
+                <div class="row">
+                    <div class="col-md-4"><img src="media/middle-banner-1.png" alt=""></div>
+                    <div class="col-md-4"><img src="media/middle-banner-2.png" alt=""></div>
+                    <div class="col-md-4"><img src="media/middle-banner-3.png" alt=""></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row latestRow text-capitalize">
+                    <div class="col-md-10 latest">
+                        <h2>latest</h2>
+                            <hr class="hr">
+                    </div>
+                        <div class="col-md-2">
+                            <button class="button btn nav-button"><</button>
+                            <button class="button btn nav-button">></button>
+                        </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row discount align-left">
+                    <p>Only with us can you get a new model with a discount.</p>
+                </div>
+            </div>
+            <div class="container-fluid mainContainer">
+                <div class="row latest-carousel">
+                    <div class="col-md-3">
+                        <p class="status text-uppercase text-center">new</p>
+                        <img src="media/item1-hover.jpg" alt="item">
+                        <p class="price">$60</p>
+                        <p class="name text-center">lorem, ipsum.</p>
+                        <button class="button btn shop-button">shop now</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="status text-uppercase text-center">new</p>
+                        <img src="media/item2-hover.jpg" alt="item">
+                        <p class="price">$60</p>
+                        <p class="name text-center">lorem, ipsum.</p>
+                        <button class="button btn shop-button">shop now</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="status text-uppercase text-center">new</p>
+                        <img src="media/item7-hover.jpg" alt="item">
+                        <p class="price">$60</p>
+                        <p class="name text-center">lorem, ipsum.</p>
+                        <button class="button btn shop-button">shop now</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="status text-uppercase text-center">new</p>
+                        <img src="media/item9-hover.jpg" alt="item">
+                        <p class="price">$60</p>
+                        <p class="name text-center">lorem, ipsum.</p>
+                        <button class="button btn shop-button">shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid welcomeVenedor">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Welcome to Venedor</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusantium quia neque placeat quisquam autem temporibus dolore magni nostrum iure.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil autem temporibus commodi quidem tempore itaque numquam accusamus fugit laudantium eveniet, nulla, fugiat, sunt quos quaerat! Iure sint in deleniti ipsa tempora? Velit ea atque at doloribus, perspiciatis deserunt magni blanditiis error labore vel ipsa sint corrupti quis est veritatis commodi.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="media/showcase.png" alt="showcase">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mainContainer">
+                <div class="row on-sale text-capitalize">
+                    <div class="col-md-10 onSale">
+                        <h2>On Sale</h2>
+                            <hr class="hr">
+                    </div>
+                    <div class="col-md-2 carousel-buttons">
+                        <button class="button btn nav-button"><</button>
+                        <button class="button btn nav-button">></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid on-sale-text">
+                <div class="row">
+                    <p>Only with us can you get a new model with a discount.</p>
+                </div>
+            </div>
+            <div class="container-fluid mainContainer">
+                <div class="row">
+                    <div class="col-md-3 On-sale-carousel">
+                        <p class="status text-uppercase text-center">new</p>
+                        <img src="media/item1-hover.jpg" alt="item">
+                        <p class="price">$60</p>
+                        <p class="name text-center">lorem, ipsum.</p>
+                        <button class="button btn shop-button">shop now</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="status text-uppercase text-center">new</p>
+                        <img src="media/item2-hover.jpg" alt="item">
+                        <p class="price">$60</p>
+                        <p class="name text-center">lorem, ipsum.</p>
+                        <button class="button btn shop-button">shop now</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="status text-uppercase text-center">new</p>
+                        <img src="media/item7-hover.jpg" alt="item">
+                        <p class="price">$60</p>
+                        <p class="name text-center">lorem, ipsum.</p>
+                        <button class="button btn shop-button">shop now</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="status text-uppercase text-center">new</p>
+                        <img src="media/item9-hover.jpg" alt="item">
+                        <p class="price">$60</p>
+                        <p class="name text-center">lorem, ipsum.</p>
+                        <button class="button btn shop-button">shop now</button>
+                </div>
+            </div>
+            <div class="container-fluid mainContainer">
+                <div class="row manufacturersRow text-capitalize">
+                    <div class="col-md-10 manufacturers">
+                        <h2>Manufacturers</h2>
+                            <hr class="hr">
+                    </div>
+                    <div class="col-md-2 carousel-buttons">
+                        <button class="button btn nav-button"><</button>
+                        <button class="button btn nav-button">></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid brands">
+                <div class="row">
+                    <div class="col-md-2"><img src="media/brand-logo.png"></div>
+                    <div class="col-md-2"><img src="media/brand-logo.png"></div>
+                    <div class="col-md-2"><img src="media/brand-logo.png"></div>
+                    <div class="col-md-2"><img src="media/brand-logo.png"></div>
+                    <div class="col-md-2"><img src="media/brand-logo.png"></div>
+                    <div class="col-md-2"><img src="media/brand-logo.png"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- close main -->
+
+    <!-- open footer -->
+    <footer class="footer">
+        <div class="footerTop">
+            <div class="container-fluid">
+                <div class="row signUp">
+                    <div class="col-md-9">
+                        <h3>Sign up to receive the latest fashion news</h3>
+                    </div>
+                    <div class="col-md-3 email">
+                        <input type="email" id="email" name="email " placeholder="Enter your email address">
+                        <button class="button btn">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="container-fluid footerRow">
+                <div class="row">
+                        <div class= "myAccount">
+                            <h4>My account</h4>
+                                <ul>
+                                    <li><a href="a">My account</a></li>
+                                    <li><a href="a">Personal Information</a></li>
+                                    <li><a href="a">Addresses</a></li>
+                                    <li><a href="a">Discount</a></li>
+                                    <li><a href="a">Order History</a></li>
+                                    <li><a href="a">Your Vouchers</a></li>
+                                </ul>
+                        </div>
+                        <div class="information">
+                            <h4>Information</h4>
+                                <ul>
+                                    <li><a href="a">New Products</a></li>
+                                    <li><a href="a">Top Sellers</a></li>
+                                    <li><a href="a">Specials</a></li>
+                                    <li><a href="a">Manufacturers</a></li>
+                                    <li><a href="a">Suppliers</a></li>
+                                    <li><a href="a">Our Stores</a></li>
+                                </ul>
+                        </div>
+                        <div class="myAccount2"> 
+                            <h4>My account</h4>
+                                <ul>
+                                    <li><a href="a">Searching Twitter...</a></li>
+                                </ul>
+                        </div>
+                        <div class="social">
+                            <h4>Facebook Like box</h4>
+                                <ul>
+                                    <img src="media/fb.png">
+                                </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBase">
+            <div class="container-fluid">
+                <div class="row socials">
+                    <div class="col-md-6 socialsIcons">
+                        <ul>
+                            <li><svg class="icon filter icon-facebook"><use xlink:href="#icon-facebook"></use></svg></li>
+                            <li><svg class="icon filter icon-twitter"><use xlink:href="#icon-twitter"></use></svg></li>
+                            <li><svg class="icon filter icon-rss"><use xlink:href="#icon-rss"></use></svg></li>
+                            <li><svg class="icon filter icon-delicious"><use xlink:href="#icon-delicious"></use></svg></li>
+                            <li><svg class="icon filter icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></li>
+                            <li><svg class="icon filter icon-flickr"><use xlink:href="#icon-flickr"></use></svg></li>
+                            <li><svg class="icon filter icon-skype"><use xlink:href="#icon-skype"></use></svg></li>
+                            <li><svg class="icon filter icon-envelop"><use xlink:href="#icon-envelop"></use></svg></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 tombstone">
+                        <p>&copy;2021 Powered by Company <sup>TM</sup> All Rights Reserved. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- close footer -->
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-delicious" viewBox="0 0 32 32">
+        <path fill="#39f" style="fill: var(--color1, #39f)" d="M16 16h-16v16h16zM32 0h-16v16h16z"></path>
+        </symbol>
+        <symbol id="icon-envelop" viewBox="0 0 32 32">
+        <path d="M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z"></path>
+        </symbol>
+        <symbol id="icon-circle-right" viewBox="0 0 32 32">
+        <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 29c-7.18 0-13-5.82-13-13s5.82-13 13-13 13 5.82 13 13-5.82 13-13 13z"></path>
+        <path d="M11.086 22.086l2.829 2.829 8.914-8.914-8.914-8.914-2.828 2.828 6.086 6.086z"></path>
+        </symbol>
+        <symbol id="icon-circle-left" viewBox="0 0 32 32">
+        <path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13z"></path>
+        <path d="M20.914 9.914l-2.829-2.829-8.914 8.914 8.914 8.914 2.828-2.828-6.086-6.086z"></path>
+        </symbol>
+        <symbol id="icon-facebook" viewBox="0 0 32 32">
+        <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+        </symbol>
+        <symbol id="icon-twitter" viewBox="0 0 32 32">
+        <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+        </symbol>
+        <symbol id="icon-rss" viewBox="0 0 32 32">
+        <path d="M4.259 23.467c-2.35 0-4.259 1.917-4.259 4.252 0 2.349 1.909 4.244 4.259 4.244 2.358 0 4.265-1.895 4.265-4.244-0-2.336-1.907-4.252-4.265-4.252zM0.005 10.873v6.133c3.993 0 7.749 1.562 10.577 4.391 2.825 2.822 4.384 6.595 4.384 10.603h6.16c-0-11.651-9.478-21.127-21.121-21.127zM0.012 0v6.136c14.243 0 25.836 11.604 25.836 25.864h6.152c0-17.64-14.352-32-31.988-32z"></path>
+        </symbol>
+        <symbol id="icon-flickr" viewBox="0 0 32 32">
+        <path d="M0 17c0-3.866 3.134-7 7-7s7 3.134 7 7c0 3.866-3.134 7-7 7s-7-3.134-7-7zM18 17c0-3.866 3.134-7 7-7s7 3.134 7 7c0 3.866-3.134 7-7 7s-7-3.134-7-7z"></path>
+        </symbol>
+        <symbol id="icon-skype" viewBox="0 0 32 32">
+        <path d="M13.3 1.169c-0.050-0.031-0.106-0.056-0.156-0.081-0.056 0.012-0.106 0.019-0.162 0.031l0.319 0.050z"></path>
+        <path d="M1.15 13.156c-0.012 0.056-0.019 0.113-0.025 0.162 0.031 0.050 0.050 0.1 0.081 0.15l-0.056-0.313z"></path>
+        <path d="M30.837 18.831c0.012-0.056 0.019-0.113 0.031-0.169-0.031-0.050-0.050-0.1-0.081-0.15l0.050 0.319z"></path>
+        <path d="M18.5 30.719c0.050 0.031 0.106 0.056 0.156 0.081 0.056-0.012 0.113-0.019 0.169-0.025l-0.325-0.056z"></path>
+        <path d="M30.869 18.663c-0.012 0.056-0.019 0.113-0.031 0.169l-0.056-0.325c0.031 0.056 0.056 0.106 0.087 0.156 0.163-0.9 0.25-1.819 0.25-2.738 0-2.037-0.4-4.019-1.188-5.881-0.762-1.8-1.85-3.419-3.238-4.806s-3.006-2.475-4.8-3.237c-1.863-0.788-3.844-1.188-5.881-1.188-0.963 0-1.925 0.088-2.863 0.269 0 0-0.006 0-0.006 0 0.050 0.025 0.106 0.050 0.156 0.081l-0.319-0.050c0.056-0.012 0.106-0.019 0.162-0.031-1.287-0.681-2.731-1.050-4.194-1.050-2.388 0-4.638 0.931-6.325 2.619s-2.619 3.937-2.619 6.325c0 1.519 0.394 3.019 1.125 4.338 0.012-0.056 0.019-0.113 0.025-0.162l0.056 0.319c-0.031-0.050-0.056-0.1-0.081-0.15-0.15 0.856-0.225 1.731-0.225 2.606 0 2.038 0.4 4.019 1.188 5.881 0.763 1.8 1.85 3.413 3.237 4.8s3.006 2.475 4.806 3.238c1.863 0.788 3.844 1.188 5.881 1.188 0.887 0 1.775-0.081 2.644-0.238-0.050-0.031-0.1-0.056-0.156-0.081l0.325 0.056c-0.056 0.012-0.113 0.019-0.169 0.025 1.337 0.756 2.856 1.163 4.4 1.163 2.387 0 4.637-0.931 6.325-2.619s2.619-3.938 2.619-6.325c-0.006-1.519-0.4-3.019-1.137-4.35zM16.069 25.181c-5.369 0-7.769-2.637-7.769-4.619 0-1.012 0.75-1.725 1.781-1.725 2.3 0 1.7 3.3 5.988 3.3 2.194 0 3.406-1.194 3.406-2.413 0-0.731-0.363-1.544-1.806-1.9l-4.775-1.194c-3.844-0.963-4.544-3.044-4.544-5 0-4.056 3.819-5.581 7.406-5.581 3.306 0 7.2 1.825 7.2 4.263 0 1.044-0.906 1.65-1.938 1.65-1.962 0-1.6-2.713-5.55-2.713-1.963 0-3.044 0.887-3.044 2.156s1.55 1.675 2.894 1.981l3.538 0.787c3.869 0.863 4.85 3.125 4.85 5.25 0 3.294-2.531 5.756-7.637 5.756z"></path>
+        </symbol>
+        <symbol id="icon-linkedin2" viewBox="0 0 32 32">
+        <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+        <path d="M2 12h6v18h-6v-18z"></path>
+        <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+        </symbol>
+        </defs>
+        </svg>        
+</body>
+</html>
